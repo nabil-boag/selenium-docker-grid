@@ -17,4 +17,3 @@ docker-compose scale firefox=12
 ```sh
 docker-compose stop
 ```
-
