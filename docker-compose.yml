@@ -11,3 +11,5 @@ services:
     environment:
       - HUB_PORT_4444_TCP_ADDR=hub
       - HUB_PORT_4444_TCP_PORT=4444
+    extra_hosts:
+      - "dev.cl.uk.wonga.com:52.56.82.66"
